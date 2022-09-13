@@ -1,0 +1,34 @@
+[
+  {
+    "model": "accounts.role",
+    "pk": 1,
+    "fields": {
+      "role_name": "admin",
+      "permissions": "{\"hotel\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"guest\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"staff\":{\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\":1}}"
+    }
+  },
+  {
+    "model": "accounts.role",
+    "pk": 2,
+    "fields": {
+      "role_name": "general_manager",
+      "permissions": "{\"hotel\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"guest\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"staff\":{\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\":1},\"categories\":{\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\":1}}"
+    }
+  },
+  {
+    "model": "accounts.role",
+    "pk": 3,
+    "fields": {
+      "role_name": "staff",
+      "permissions": "{\"hotel\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"guest\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"staff\":{\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\":1}}"
+    }
+  },
+  {
+    "model": "accounts.role",
+    "pk": 4,
+    "fields": {
+      "role_name": "user",
+      "permissions": "{\"hotel\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"guest\": {\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\": 1},\"staff\":{\"create\": 1, \"edit\": 1, \"delete\": 1, \"view\":1}}"
+    }
+  }
+]
